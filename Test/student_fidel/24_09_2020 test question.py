@@ -1,5 +1,5 @@
 import re
-def power(letter):
+def address(letter):
     i = 0
     while (i < 4):
         i = i+1
@@ -32,4 +32,4 @@ def power(letter):
         glass.append(condition)
         glass.append(number)
         print(glass)
-power('letter')
+address('letter')
